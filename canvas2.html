@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+<head>
+	
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+	
+	<style>
+		
+		body 
+		
+		{
+	
+	
+		text-align: center;	  
+		overflow: scroll;
+		background-color:rgba(254,133,55,1.00);
+			
+		}
+			
+	</style>
+	
+</head>
+
+	
+	
+<body>
+	
+	<h1> CIRCLE!</h1>
+	
+<canvas id="myCanvas" width="400" height="400" style="border:67px solid #AF0E0E;">
+
+	Your browser does not support the HTML canvas tag.
+	
+</canvas>
+	
+<script>
+	
+var c = document.getElementById ("myCanvas");
+
+var ctx = c.getContext("2d");
+
+
+	
+ctx.beginPath();
+ctx.arc(200, 200, 90, 0, 2 * Math.PI);
+ctx.strokeStyle = "#AF0E0E"
+ctx.stroke();
+	
+
+
+	
+</script>	
+	
+	
+	
+</body>
+	
+</html>
