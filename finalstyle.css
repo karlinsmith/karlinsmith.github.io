@@ -46,6 +46,41 @@ li a:hover:not(.active) {
 
 body{
 	
+	background-color: black;
+    font-family: "Baskerville";
+	background-image:url("Joker1.png");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	
+}
+/* 2D page */
+.col img {
+	width: 400px;
+	height:400px;
+	margin-left:25%;
+	margin-top: 5%;
+	border:rgba(0,0,0,1.00) thick inset;
 	
+}
+/* Biography page*/
+.bio{
+	color: red;
+	font-size: 60px;
+	text-align: center;
+	background: rgba(0,0,0,.90)
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin-left: 140px
+
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
