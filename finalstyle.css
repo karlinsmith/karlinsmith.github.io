@@ -102,7 +102,18 @@ body{
 .vid{
 	margin-top: 50px;
 	align-content: center;
+	}
+.welcome{
+	text-align:center;
+	color:rgba(173,0,2,1.00);
+	font-size: 80px;
+	padding-left: 20px;
+}
+.p3{
+	font-size: 40px;
+	color:rgba(173,0,2,1.00);
+	background:rgba(0,0,0,1.00);
 	
 	
-	
+		
 }
