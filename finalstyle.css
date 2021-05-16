@@ -63,6 +63,8 @@ body{
 	border:rgba(0,0,0,1.00) thick inset;
 	
 }
+
+
 /* Biography page*/
 .bio{
 	color: red;
@@ -83,4 +85,24 @@ body{
   content: "";
   clear: both;
   display: table;
+}
+
+/*bottom wording*/
+
+.side {
+	text-align: center;
+	color: red;
+	font-size: 100px;
+	text-decoration: underline 
+
+}
+
+/*Video*/
+
+.vid{
+	margin-top: 50px;
+	align-content: center;
+	
+	
+	
 }
